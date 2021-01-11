@@ -1,0 +1,40 @@
+body {
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+/*Conteúdo*/
+.back-image-links {
+    background-color: #CB978C;
+    height: 100px;
+}
+
+.btn-primary {
+    background-color: #25403F;
+    border-color: #25403F;
+    margin-top: -50px;
+}
+
+.btn-primary:hover {
+    background-color: #25403F;
+    border-color: #25403F;
+
+}
+
+.btn-redes-sociais {
+    background-color: #25403F;
+    color: #FFFFFF !important;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btn-redes-sociais:hover {
+    background-color: #FFFFFF;
+    color: #25403F !important;
+    border: 3px solid #25403F;
+}
+
+.logo-links {
+    height: 150px;
+    padding: 18px;
+}

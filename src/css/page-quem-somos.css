@@ -1,0 +1,123 @@
+body {
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+/*Navbar*/
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 150px;
+}
+
+.separator-logo {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
+    width: 500px;
+    border: 0.5px solid #CB978C;
+}
+
+.icon-separator {
+    margin-top: 14px;
+    color: #FFFFFF;
+    font-size: 8px;
+}
+
+.box-icon-shop {
+    border: 1px solid;
+    border-color: #25403F #FFFFFF #FFFFFF #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+    border-top: 5px solid #FFFFFF;
+    padding-top: 5px;
+    transition: .2s;
+}
+
+.bg-light {
+    background-color: #25403f !important;
+}
+
+button.navbar-toggler {
+    border-color: #FFFFFF !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*Conteúdo main*/
+.background-quem-somos {
+    background-color: #25403F;
+}
+
+h1.pt-5.pb-2, p.pb-3 {
+    color: #FFFFFF;
+}
+
+h2.pt-5.pb-2.text-right, p.text-right {
+    color: #25403F;
+}
+
+.img-quem-somos {
+    display: flex;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    margin-top: -30px;
+}
+
+.img-ghost-quem-somos {
+    display: flex;
+}
+
+/*Footer*/
+.btn-social-media > a {
+    color: #f7f7f7;
+}
+
+.button-socia-media {
+    background-color: #25403F;
+    border-radius: 50px;
+    padding: 5px 8px 5px 8px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/*Versões celular e Ipad*/
+@media (max-width: 480px) {
+    .logo {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .separator-logo {
+        width: 250px;
+    }
+
+    .img-quem-somos {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) { /*aplicados em telas maiores que 768 pixels*/
+    .img-ghost-quem-somos {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    nav div span {
+        display: none;
+    }
+}

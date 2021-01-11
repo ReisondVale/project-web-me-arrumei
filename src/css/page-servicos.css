@@ -1,0 +1,184 @@
+body {
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+p, li {
+    text-align: justify;
+}
+
+/*Navbar*/
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 150px;
+}
+
+.separator-logo {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
+    width: 500px;
+    border: 0.5px solid #CB978C;
+}
+
+.icon-separator {
+    margin-top: 14px;
+    color: #CB978C;
+    font-size: 8px;
+}
+
+.box-icon-shop {
+    border: 1px solid;
+    border-color: white #CB978C #CB978C #CB978C;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: #CB978C;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #CB978C;
+    border-top: 5px solid #CB978C;
+    padding-top: 5px;
+    transition: .2s;
+}
+
+.bg-light {
+    background-color: #FFFFFF !important;
+}
+
+button.navbar-toggler {
+    border-color: #CB978C !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(203,151,140)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*conteudo main*/
+.banner-servicos {
+    background-color: #CB978C;
+    margin-left: 80px;
+}
+
+.banner-servicos > h1 {
+    color: #FFFFFF;
+    font-weight: normal !important;
+    padding-left: 50px;
+}
+
+.border-banner {
+    border: 1px solid #CB978C;
+}
+
+.img-services-back1 {
+    background: url(/src/img/img-color-pessoal.jpg) no-repeat;
+    background-size: contain;
+    height: 250px;
+}
+
+.img-services-back2 {
+    background: url(/src/img/img-closet-cleaning.jpeg) no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: auto;
+}
+
+.img-services-back3 {
+    background: url(/src/img/img-montagem-looks.jpg) no-repeat;
+    background-size: contain;
+    height: 250px;
+}
+
+.img-services-back4 {
+    background: url(/src/img/img-dna-estilo.jpg) no-repeat;
+    background-size: contain;
+    height: 250px;
+}
+
+.img-services-back5 {
+    background: url(/src/img/img-combos.jpg) no-repeat;
+    background-size: contain;
+    height: 250px;
+}
+
+.btn-services {
+    background-color: #CB978C;
+    border-color: #CB978C;
+    border-radius: unset;
+    color: #FFFFFF !important;
+}
+
+.btn-services:disabled {
+    background-color: #CB978C;
+    border-color: #CB978C;
+    opacity: 100;
+}
+
+.btn-agendar {
+    background-color: #25403F;
+    border-color: #25403F;
+    border-radius: unset;
+    color: #FFFFFF !important;
+    margin-top: 170px;
+}
+
+.btn-agendar:hover {
+    opacity: 90%;
+    background-color: #25403F;
+    border-color: #25403F;
+}
+
+.fa-chevron-square-down:before {
+    color: #CB978C;
+}
+
+.home-footer {
+    margin-top: 80px;
+}
+
+.logo-footer {
+    width: 55px;
+    height: 60px;
+}
+
+footer {
+    background-color: #CB978C;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer, footer a {
+    color: #FFFFFF;
+}
+
+footer, footer a:hover {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+}
+
+.fa, .fas {
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+/*Versões celular e Ipad*/
+@media (max-width: 480px) {
+    .logo {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .separator-logo {
+        width: 250px;
+    }
+}
+
+@media (max-width: 991px) {
+    nav div span {
+        display: none;
+    }
+}
